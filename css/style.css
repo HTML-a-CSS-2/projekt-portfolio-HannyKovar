@@ -5,107 +5,11 @@ body{
     background-color: beige;
     font-family: 'Pontano Sans', sans-serif;
     /* font-family: 'Dancing Script', cursive  */
-    height: 100vh;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-areas: 
-        "head head"
-        "head head"
-        "nav-par-mytwick nav-par-rkbm"
-        "nav-par-ringana nav-par-rkbm"
-        "nav-par-magenta nav-par-pridejtese"
-        "nav-par-marykay nav-par-pridejtese"
-        "sek-par-mytwick sek-par-mytwick"
-        "sek-par-ringana sek-par-ringana"
-        "sek-par-magenta sek-par-magenta"
-        "sek-par-marykay sek-par-marykay"
-        "box-add-mytwick box-add-mytwick"
-        "box-add-ringana box-add-ringana"
-        "box-add-marykay box-add-marykay"
-        "footer-article footer-article"
-        "footer-adr-residency footer-adr-office"
-     
+    display: flex;¨
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 
-}
-
-.head{ 
-    grid-area: head;
-    display: flex;
-}
-
-.nav-par-mytwick{ 
-    grid-area: nav-par-mytwick;
-}
-
-.nav-par-ringana{ 
-    grid-area: nav-par-ringana;
-}
-
-.nav-par-magenta{ 
-    grid-area: nav-par-magenta;
-}
-
-.nav-par-marykay{ 
-    grid-area: nav-par-marykay;
-}
-
-.nav-par-rkbm{ 
-    grid-area: nav-par-rkbm;
-}
-
-.nav-par-pridejtese{ 
-    grid-area: nav-par-pridejtese;
-
-}
-
-.sekce-partner__sekce-mytwick{ 
-    grid-area: sek-par-mytwick;
-
-}
-
-.sekce-partner__sekce-ringana{ 
-    grid-area: sek-par-ringana;
-
-}
-
-.sekce-partner__sekce-magenta{ 
-    grid-area: sek-par-magenta;
-
-}
-
-.sekce-partner__sekce-marykay{ 
-    grid-area: sek-par-marykay;
-
-}
-
-.box-add__box-mytwick{
-    grid-area: box-add-mytwick;
-
-
-}
-
-.box-add__box-ringana{ 
-    grid-area:  box-add-ringana;
-
-}
-
-.box-add__box-marykay{ 
-    grid-area:  box-add-marykay;
-
-}
-
-.footer-rkbm__article{ 
-    grid-area:  footer-article;
-
-}
-
-.footer-adress__residency{
-    grid-area:  footer-adr-residency;
-}
-
-.footer-adress__ogrid-area: {
-    grid-area:  footer-adr-office;
 }
 
 
