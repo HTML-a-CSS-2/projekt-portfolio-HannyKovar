@@ -1,0 +1,131 @@
+{}
+
+header{
+    display: grid;
+ }
+ 
+/*NAVIGACE*/
+
+ /*nav{
+     display: flex;
+     flex: wrap;
+     background: rgb(66, 65, 65);
+     flex-wrap: wrap;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+ }
+
+.navigace{
+    text-align: center;
+}
+
+.navigace li{
+    display: block;
+}
+
+.navigace ul{
+    padding: 0;
+}
+
+.navigace a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+ div.navigace__mytwick{
+   flex: 0 0 25%;
+ }
+
+ div.navigace__magenta{
+   flex: 0 0 25%;
+}
+
+div.navigace__ringana{
+   flex: 0 0 25%;
+}
+
+div.navigace__marykay{
+   flex: 0 0 25%;
+}
+
+div.navigace__rkbm{
+   flex: 0 0 50%;
+}
+
+div.navigace__pridejtese{
+   flex: 0 0 50%;
+}*/
+
+ details{
+     display: grid;
+ }
+
+nav{
+    display: grid;
+    grid-template-columns: 0,5fr 0,5fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 4;
+    width: 1fr;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    padding: 10px 0 10px 0;
+   ;
+}
+
+nav .button-mytwick{
+    background: gray;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    width: 1fr;
+}
+
+nav .button-magenta{
+    background: rgb(151, 9, 128);
+    grid-column-start: 1 ;
+    grid-row-start: 2;
+    width: 1fr;
+}
+
+nav .button-ringana{
+    background: green;
+    grid-column-start:1 ;
+    grid-row-start: 3;
+    width: 1fr;
+}
+
+nav .button-marykay{
+    background: pink;
+    grid-column-start:1 ;
+    grid-row-start: 4;
+    width: 1fr;
+
+}
+
+nav .button-rkbm{
+    background: blueviolet;
+    padding: 10px;
+    grid-column-start: 2;
+    grid-row-start: 1;
+    grid-row-end:span 2 ;
+    width: 1fr;
+}
+
+nav .button-add{
+    background: orange;
+    padding: 10px;
+    grid-column-start: 2 ;
+    grid-row-start: 3;
+    grid-row-end:span 4;
+    width: 1fr;
+}
+
