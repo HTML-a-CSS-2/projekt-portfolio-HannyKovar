@@ -15,12 +15,9 @@ body{
 
 /*SIDE FIRST*/
 .side-first{
-
     background: white;
-
-  
 }
-
+s
 img.main__logo{
     display: block;
 }
@@ -34,6 +31,7 @@ p.main__project-first{
     border: 2px solid red;
     margin: 0;
     font-size: 20px;
+
 }
 
 p.main__project-second{

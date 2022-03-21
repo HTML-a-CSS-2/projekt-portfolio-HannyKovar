@@ -8,32 +8,37 @@ header{
     width: 1fr;
     padding: 0;
     margin: 0;
+    height: 200px;
 }
  
  header .main__logo{
     grid-column-start: 1;
     grid-row-start: 1;
     width: 100%;
+    height: 100px;
  }
 
  header .main__title{
     grid-column-start: 1;
     grid-row-start: 2;
     width: 100%;
+    height: 100px;
  }
 
  header .main__project-first{
     grid-column-start: 2;
-    grid-row-start: 1;
+    grid-row-start: 1;s
     width: 100%;
     margin: 0;
+    height: 100px;
  }
 
- header .mani__project-second{
+ header .main__project-second{
     grid-column-start: 2;
     grid-row-start: 2;
     width: 100%;
     margin: 0;
+    height: 100px;
  }
 
 
@@ -51,6 +56,7 @@ nav{
     width: 1fr;
     padding: 0;
     margin: 0;
+    height: 200px;
 }
 
 nav a {
@@ -115,5 +121,6 @@ details{
     display: grid;
     padding: 0;
     margin: 0;
+    height: 200px;
 }
 
