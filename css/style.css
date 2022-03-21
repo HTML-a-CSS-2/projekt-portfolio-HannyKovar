@@ -12,20 +12,46 @@ body{
 
 }
 
+
+/*SIDE FIRST*/
 .side-first{
 
     background: white;
+
   
 }
 
+img.main__logo{
+    display: block;
+}
+
+h1.main__titel{
+    margin: 0;
+    border: 2px solid black;
+}
+
+p.main__project-first{
+    border: 2px solid red;
+    margin: 0;
+    font-size: 20px;
+}
+
+p.main__project-second{
+    border: 2px solid yellow;
+    margin: 0;
+
+}
+
+
+
+/*SIDE SECOND*/
 
 .side-second{
-    width: 100vh;
     background: rgb(117, 112, 112);
 }
 
+/*SIDE THIRD*/
 .side-third{
-    width: 100vh
     background:rgb(218, 211, 211);
 }
 
