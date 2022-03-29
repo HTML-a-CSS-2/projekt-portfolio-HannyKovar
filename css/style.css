@@ -17,13 +17,11 @@ body{
 
 img.main__logo__img{
     margin-top:20px;
-    margin-bottom: 20px;
     height: 80px;
 }
 
 .main__title{
     font-size: var(--fontsizeNormal);
-    
 
 }
 
