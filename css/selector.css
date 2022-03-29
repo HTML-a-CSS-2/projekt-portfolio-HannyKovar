@@ -2,15 +2,17 @@
 
 :root{
     --primaryColor: rgb(231, 219, 219);
-    --secondaryColor:rgb(122, 117, 117) ;
+    --secondaryColor: rgb(31, 30, 30);
+    --thirdColor:rgb(122, 117, 117) ;
     --imgWidth: ;
     --marginBig: ;
     --marginMedium: ;
     --marginSmall: ;
     --paddingBig: ;
     --paddingMedium: 20px;
-    --paddingSmall: ;
+    --paddingSmall: 10px;
     --fontsizeNormal: 1rem;
     --fontsizeMedium:1.2rem ;
-    --fontsizeBig:2rem ;
+    --fontsizeBig:1.5rem ;
+    --colorsizeWhite:white ;
 }

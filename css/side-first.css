@@ -5,7 +5,7 @@ header{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(1fr, 1fr,1fr);
-    padding: 0;
+    padding-bottom: var(--paddingMedium);
     margin: 0;
     justify-items: center;
     justify-content: space-around;
@@ -23,13 +23,14 @@ header .main__logo{
  header .main__project__first{
     grid-column-start: 1;
     grid-row-start: 2;
-    margin: 0;
+    margin-right: 30px;
  }
 
   header .main__project__second{
     grid-column-start: 2;
     grid-row-start: 2;
-    margin: 0;
+    margin-left: 30px;
+
  }
 
  header .main__title{
@@ -53,64 +54,69 @@ nav{
     width: 1fr;
     padding: 0;
     margin: 0;
-    height: 200px;
 }
 
 nav a {
     text-decoration: none;
     font-weight: bold;
-    font-size: 20px;
-    color: white;
-    padding: 10px 0 10px 0;
-   ;
+    font-size: var(--fontsizeBig);
+    color: var(--colorsizeWhite);
+    padding: var(--paddingSmall);
 }
-
+    
 nav .button-mytwick{
-    background: gray;
+    background: var(--secondaryColor);
     grid-column-start: 1;
     grid-row-start: 1;
     width: 1fr;
+    justify-self: stretch;
+    align-self: center;
+    border: 1px solid var(--colorsizeWhite);
 }
 
 nav .button-magenta{
-    background: rgb(151, 9, 128);
+    background: var(--secondaryColor);
     grid-column-start: 1 ;
     grid-row-start: 2;
     width: 1fr;
+    border: 1px solid var(--colorsizeWhite);
 }
 
 nav .button-ringana{
-    background: green;
+    background: var(--secondaryColor);
     grid-column-start:1 ;
     grid-row-start: 3;
     width: 1fr;
+    border: 1px solid var(--colorsizeWhite);
 }
 
 nav .button-marykay{
-    background: pink;
+    background: var(--secondaryColor);
     grid-column-start:1 ;
     grid-row-start: 4;
     width: 1fr;
+    border: 1px solid var(--colorsizeWhite);
 
 }
 
 nav .button-rkbm{
-    background: blueviolet;
-    padding: 10px;
+    background: var(--secondaryColor);
     grid-column-start: 2;
     grid-row-start: 1;
     grid-row-end:span 2 ;
     width: 1fr;
+    border: 1px solid var(--colorsizeWhite);
 }
 
 nav .button-add{
-    background: orange;
-    padding: 10px;
+    background: var(--secondaryColor);
     grid-column-start: 2 ;
     grid-row-start: 3;
     grid-row-end:span 4;
     width: 1fr;
+    border: 1px solid var(--colorsizeWhite);
 }
+
 
 /*POHYBLIVÉ FOTOGRAFIE*/
 
