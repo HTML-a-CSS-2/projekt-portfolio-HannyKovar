@@ -2,9 +2,12 @@
 
 <!--Side-second-->
 
-article{
+.side-second{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 300px);
-    background: var(--primaryColor);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    padding-bottom: var(--paddingMedium);
+    margin: 0;
+    justify-items: center;
+    justify-content: space-around;
 }
